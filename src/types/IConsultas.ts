@@ -1,11 +1,11 @@
 import IProfissional from "./IProfissional";
 
-export default interface IConsulta{
+export default interface IConsulta {
 
     id: number,
     data: string,
     horariro: string,
-    profissional : Array<IProfissional>,
+    profissional: Array<IProfissional>,
     especialidade: string,
     paciente: string,
     modalidade: string
